@@ -172,7 +172,7 @@ ul {
 }
 
 .line {
-    width: 1200px;
+    width: 900px;
     height: 15px;
     background: var(--light-link-color);
     position: absolute;

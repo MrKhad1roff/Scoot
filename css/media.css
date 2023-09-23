@@ -1,0 +1,418 @@
+/* Decktop */
+@media (max-width: 1440px) {}
+@media (max-width: 1320px) {}
+@media (max-width: 1290px) {}
+@media (max-width: 1170px) {
+
+    .line{
+        max-width: 840px;
+        width: 100%;
+    }
+    .newyork{
+        top: 60px;
+    }
+    .newyork__text{
+        top: 85px;
+    }
+    .london{
+        top: 17px;
+        left: 420px;
+    }
+    .london__text{
+        top: 42px;
+    }
+
+    .yokohama{
+        top: 72px;
+        right: 77px;
+    }
+    .yokohama__text{
+        top: 90px;
+    }
+    .jakarta{
+        bottom: 190px;
+        right: 120px;
+    }
+    .jakarta__text{
+        bottom:230px;
+    }
+}
+@media (max-width: 1140px) {}
+@media (max-width: 1024px) {
+    .join__cards{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        row-gap: 50px;
+    }
+    .join__card{
+        max-width: 450px;
+        width: 100%;
+        display:flex;
+        align-items: center;
+    }
+    .photo__num{
+        left: 63px;
+    }
+
+    .values__cards{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        row-gap: 50px;
+    }
+    .values__card{
+        max-width: 450px;
+        width: 100%;
+        display:flex;
+        align-items: center;
+    }
+    .photo__num{
+        left: 63px;
+    }
+    .accordion{
+        max-width: 650px;
+        width: 100%;
+    }
+    .accordion1{
+        max-width: 650px;
+        width: 100%;
+    }
+    .line{
+        width: 680px;
+    }
+}
+/* tab */
+@media (max-width: 992px) {
+    .container{
+        max-width: 1000px;
+        width: 100%;
+    }
+     .header__nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 200px;
+    }
+    .header__desc{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .header__text{
+        text-align: center;
+        max-width: 574px;
+        width: 100%;
+    }
+    .line{
+        display: inline-block;
+        width: 15px;
+        top: -20px;
+        z-index: -10;
+        height: 850px;
+        left: 245px;
+    }
+    .apps__cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    .apps__card{
+        display: flex;
+        flex-direction: row;
+        column-gap:70px;
+        max-width: 768px;
+        align-items: center;
+        height: 300px;
+    }
+
+
+    .riding{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .riding__desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .riding__title{
+        width: 507px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .riding__text{
+        max-width: 584px;
+        width: 100%;
+        text-align: center;
+        margin: 40px 0;
+    }
+
+    .coming{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .coming__desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .coming__title{
+        width: 507px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .coming__text{
+        max-width: 584px;
+        width: 100%;
+        text-align: center;
+        margin: 40px 0;
+    }
+    .payment{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .payment__desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .payment__title{
+        width: 507px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .payment__text{
+        max-width: 584px;
+        width: 100%;
+        text-align: center;
+        margin: 40px 0;
+    }
+    .contacts__desc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 40px;
+    }
+    .contacts__title{
+        text-align: center;
+    }
+    .logos{
+        padding-bottom: 45px;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 200px;
+    }
+    
+    .wrap{
+        left: 97px;
+    }
+
+    .mobility{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .mobility__desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobility__title{
+        width: 507px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .mobility__text{
+        max-width: 584px;
+        width: 100%;
+        text-align: center;
+        margin: 40px 0;
+    }
+    .living{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .living__desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .living__title{
+        width: 507px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .living__text{
+        max-width: 584px;
+        width: 100%;
+        text-align: center;
+        margin: 40px 0;
+    }
+
+
+    .our__values{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .values__card{
+        max-width: 800px;
+        width: 100%;
+    }
+    .card__text{
+        max-width: 457px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .faqs__desc-top{
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+    .accordion{
+        max-width: 800px;
+        width: 100%;
+    }
+    .faqs__desc-bottom{
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+    }
+    .accordion1{
+        max-width: 800px;
+        width: 100%;
+    }
+
+
+    .join{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .join__card{
+        max-width: 800px;
+        width: 100%;
+    }
+    .join__text{
+        max-width: 457px;
+        width: 100%;
+        text-align: center;
+    }
+    .join__title{
+        font-size: 48px;
+    }
+
+    .applies__card{
+        width: 800px;
+    }
+    .newyork{
+        top: 50px;
+        left: 130px;
+    }
+    .newyork__text{
+        top: 73px;
+        left: 170px ;
+    }
+    .london{
+        top: 17px;
+        left:340px;
+    }
+    .london__text{
+        top: 40px;
+        left: 390px;
+    }
+
+    .yokohama{
+        top: 72px;
+        right: 77px;
+    }
+    .yokohama__text{
+        top: 90px;
+    }
+    .jakarta{
+        bottom: 200px;
+        right: 98px;
+    }
+    .jakarta__text{
+        bottom:238px;
+        right: 150px;
+    }
+    .about__desc{
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .desc-title{
+        max-width: 550px;
+        width: 100%;
+        text-align: center;
+    }
+    .desc-text{
+        max-width: 573px;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (max-width: 850px) {
+    .line{
+        left: 105px;
+    }
+
+    .newyork{
+        top: 40px;
+        left: 105px;
+    }
+    .newyork__text{
+        top: 63px;
+        left: 150px ;
+    }
+    .london{
+        top:0;
+        left:305px;
+    }
+    .london__text{
+        top: 25px;
+        left: 355px;
+    }
+
+    .yokohama{
+        top: 60px;
+        right: 50px;
+    }
+    .yokohama__text{
+        top: 80px;
+        right: 88px;
+    }
+    .jakarta{
+        bottom: 200px;
+        right: 75px;
+    }
+    .jakarta__text{
+        bottom:238px;
+        right: 130px;
+    }
+}
+/* mobile */
+@media(max-width: 768px) {
+
+}
+@media (max-width: 734px) {}
+@media (max-width: 684px) {}
+@media (max-width: 667px) {}
+/* mobile < 576  */
+@media (max-width: 576px) {}
+@media (max-width: 480px) {}
+@media (max-width: 412px) {}
+@media (max-width: 375px) {}
+@media (max-width: 320px) {}

@@ -77,6 +77,41 @@ ul {
     padding: 0 15px;
     overflow: hidden;
 }
+.burger{
+    display: none;
+    position: absolute;
+    left: 50px;
+}
+.burger div{
+    height: 3px;
+    width: 25px;
+    background-color: var(--primary-color);
+    margin: 5px 0;
+    transition: transform 0.5s linear;
+}
+.header__links{
+    display: flex;
+    column-gap: 30px;
+}
+@keyframes navLinkMove {
+    from{
+        opacity: 0;
+        transform: translateX(70px);
+    }
+    to{
+        opacity: 1;
+        transform: translate();
+    }
+}
+.toggle .line-1{
+    transform: rotate(-45deg) translate(-5px,6px);  
+}
+.toggle .line-2{
+    opacity: 0;
+}
+.toggle .line-3{
+    transform: rotate(45deg) translate(-5px,-6px);  
+}
 
 .header__nav {
     display: flex;

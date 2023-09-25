@@ -22,11 +22,6 @@ titles.forEach(item => item.addEventListener('click', () => {
     }
 }))
 
-document.querySelector('[data-tab="tab-1"]').classList.add('active');
-document.querySelector('#tab-1').classList.add('active');
-document.querySelector('#tab-1').style.maxHeight = document.querySelector('#tab-1').scrollHeight + 'px';
-
-
 
 
 const titles1 = document.querySelectorAll('.accordion__title1');
@@ -53,9 +48,8 @@ titles1.forEach(item => item.addEventListener('click', () => {
     }
 }))
 
-document.querySelector('[data-tab="tab-1_"]').classList.add('active');
-document.querySelector('#tab-1_').classList.add('active');
-document.querySelector('#tab-1_').style.maxHeight = document.querySelector('#tab-1_').scrollHeight + 'px';
+
+
 
 
 const burger = document.querySelector('.burger');
@@ -64,21 +58,12 @@ const navLinks = document.querySelectorAll('.nav__list li');
 
 //Toggle nav
 
-burger.addEventListener('click', function () {
-    setTimeout(() => {
-        nav.style.opacity = "1"
-    }, 200);
+burger.addEventListener('click', () => {
 
-    navLinks.forEach((link, index) => {
-        if(link.style.animation){
-            link.style.animation = "";
-        }else{
-            link.style.animation = `navLink 0.5s ease forwards ${index / 7 + 0.35}`
-        }
-    });
-
+    if(nav.classList.toggle){
+        nav.style.transform = "translate(0)"
+    }
+    
 
     burger.classList.toggle('toggle');
 });
-
-

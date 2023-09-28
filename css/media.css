@@ -1,113 +1,147 @@
 /* Decktop */
-@media (max-width: 1440px) {}
-@media (max-width: 1320px) {}
-@media (max-width: 1290px) {}
+@media (max-width: 1440px) {
+    .line{
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1320px) {
+    .line{
+        width: 950px;
+    }
+}
+
+@media (max-width: 1290px) {
+    .line{
+        width: 900px;
+    }
+}
+
 @media (max-width: 1170px) {
 
-    .line{
-        max-width: 840px;
-        width: 100%;
+
+    .line {
+        width: 840px;
     }
-    .newyork{
+
+    .newyork {
         top: 60px;
     }
-    .newyork__text{
+
+    .newyork__text {
         top: 85px;
     }
-    .london{
+
+    .london {
         top: 17px;
         left: 420px;
     }
-    .london__text{
+
+    .london__text {
         top: 42px;
     }
 
-    .yokohama{
+    .yokohama {
         top: 72px;
         right: 77px;
     }
-    .yokohama__text{
+
+    .yokohama__text {
         top: 90px;
     }
-    .jakarta{
+
+    .jakarta {
         bottom: 190px;
         right: 120px;
     }
-    .jakarta__text{
-        bottom:230px;
+
+    .jakarta__text {
+        bottom: 230px;
     }
 }
+
 @media (max-width: 1140px) {}
+
 @media (max-width: 1024px) {
-    .join__cards{
+
+    .join__cards {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         row-gap: 50px;
     }
-    .join__card{
+
+    .join__card {
         max-width: 450px;
         width: 100%;
-        display:flex;
+        display: flex;
         align-items: center;
     }
-    .photo__num{
+
+    .photo__num {
         left: 63px;
     }
 
-    .values__cards{
+    .values__cards {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         row-gap: 50px;
     }
-    .values__card{
+
+    .values__card {
         max-width: 450px;
         width: 100%;
-        display:flex;
+        display: flex;
         align-items: center;
     }
-    .photo__num{
+
+    .photo__num {
         left: 63px;
     }
-    .accordion{
+
+    .accordion {
         max-width: 650px;
         width: 100%;
     }
-    .accordion1{
+
+    .accordion1 {
         max-width: 650px;
         width: 100%;
     }
-    .line{
-        width: 680px;
-    }
+
 }
+
 /* tab */
 @media (max-width: 992px) {
-    .container{
+    .container {
         max-width: 1000px;
         width: 100%;
     }
-     .header__nav{
+
+    .header__nav {
         display: flex;
         justify-content: center;
         align-items: center;
         column-gap: 200px;
     }
-    .header__desc{
+
+    .header__desc {
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
     }
-    .header__text{
+
+    .header__text {
         text-align: center;
         max-width: 574px;
         width: 100%;
     }
-    .line{
+
+    .line {
         display: inline-block;
         width: 15px;
         top: -20px;
@@ -115,306 +149,356 @@
         height: 850px;
         left: 245px;
     }
-    .apps__cards{
+
+    .apps__cards {
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-end;
     }
-    .apps__card{
+
+    .apps__card {
         display: flex;
         flex-direction: row;
-        column-gap:70px;
+        column-gap: 70px;
         max-width: 768px;
         align-items: center;
         height: 300px;
     }
 
 
-    .riding{
+    .riding {
         display: flex;
         flex-direction: column-reverse;
     }
-    .riding__desc{
+
+    .riding__desc {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .riding__title{
+
+    .riding__title {
         width: 507px;
         margin-top: 30px;
         text-align: center;
     }
-    .riding__text{
+
+    .riding__text {
         max-width: 584px;
         width: 100%;
         text-align: center;
         margin: 40px 0;
     }
 
-    .coming{
+    .coming {
         display: flex;
         flex-direction: column-reverse;
     }
-    .coming__desc{
+
+    .coming__desc {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .coming__title{
+
+    .coming__title {
         width: 507px;
         margin-top: 30px;
         text-align: center;
     }
-    .coming__text{
+
+    .coming__text {
         max-width: 584px;
         width: 100%;
         text-align: center;
         margin: 40px 0;
     }
-    .payment{
+
+    .payment {
         display: flex;
         flex-direction: column-reverse;
     }
-    .payment__desc{
+
+    .payment__desc {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .payment__title{
+
+    .payment__title {
         width: 507px;
         margin-top: 30px;
         text-align: center;
     }
-    .payment__text{
+
+    .payment__text {
         max-width: 584px;
         width: 100%;
         text-align: center;
         margin: 40px 0;
     }
-    .contacts__desc{
+
+    .contacts__desc {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         row-gap: 40px;
     }
-    .contacts__title{
+
+    .contacts__title {
         text-align: center;
     }
-    .logos{
+
+    .logos {
         padding-bottom: 45px;
     }
-    .nav{
+
+    .nav {
         display: flex;
         justify-content: center;
         align-items: center;
         column-gap: 200px;
     }
-    
-    .wrap{
+
+    .wrap {
         left: 97px;
     }
 
-    .mobility{
+    .mobility {
         display: flex;
         flex-direction: column-reverse;
     }
-    .mobility__desc{
+
+    .mobility__desc {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
-    .mobility__title{
+
+    .mobility__title {
         width: 507px;
         margin-top: 30px;
         text-align: center;
     }
-    .mobility__text{
-        max-width: 584px;
-        width: 100%;
-        text-align: center;
-        margin: 40px 0;
-    }
-    .living{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    .living__desc{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .living__title{
-        width: 507px;
-        margin-top: 30px;
-        text-align: center;
-    }
-    .living__text{
+
+    .mobility__text {
         max-width: 584px;
         width: 100%;
         text-align: center;
         margin: 40px 0;
     }
 
+    .living {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 
-    .our__values{
+    .living__desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .living__title {
+        width: 507px;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .living__text {
+        max-width: 584px;
+        width: 100%;
+        text-align: center;
+        margin: 40px 0;
+    }
+
+
+    .our__values {
         display: flex;
         flex-wrap: wrap;
     }
-    .values__card{
+
+    .values__card {
         max-width: 800px;
         width: 100%;
     }
-    .card__text{
+
+    .card__text {
         max-width: 457px;
         width: 100%;
         text-align: center;
     }
 
-    .faqs__desc-top{
+    .faqs__desc-top {
         display: flex;
         flex-direction: column;
         row-gap: 32px;
     }
-    .accordion{
+
+    .accordion {
         max-width: 800px;
         width: 100%;
     }
-    .faqs__desc-bottom{
+
+    .faqs__desc-bottom {
         display: flex;
         flex-direction: column;
         row-gap: 32px;
     }
-    .accordion1{
+
+    .accordion1 {
         max-width: 800px;
         width: 100%;
     }
 
 
-    .join{
+    .join {
         display: flex;
         flex-wrap: wrap;
     }
-    .join__card{
+
+    .join__card {
         max-width: 800px;
         width: 100%;
     }
-    .join__text{
+
+    .join__text {
         max-width: 457px;
         width: 100%;
         text-align: center;
     }
-    .join__title{
+
+    .join__title {
         font-size: 48px;
     }
 
-    .applies__card{
+    .applies__card {
         width: 800px;
     }
-    .newyork{
+
+    .newyork {
         top: 50px;
         left: 130px;
     }
-    .newyork__text{
+
+    .newyork__text {
         top: 73px;
-        left: 170px ;
+        left: 170px;
     }
-    .london{
+
+    .london {
         top: 17px;
-        left:340px;
+        left: 340px;
     }
-    .london__text{
+
+    .london__text {
         top: 40px;
         left: 390px;
     }
 
-    .yokohama{
+    .yokohama {
         top: 72px;
         right: 77px;
     }
-    .yokohama__text{
+
+    .yokohama__text {
         top: 90px;
     }
-    .jakarta{
+
+    .jakarta {
         bottom: 200px;
         right: 98px;
     }
-    .jakarta__text{
-        bottom:238px;
+
+    .jakarta__text {
+        bottom: 238px;
         right: 150px;
     }
-    .about__desc{
+
+    .about__desc {
         display: flex;
         flex-direction: column;
         row-gap: 40px;
     }
-    .desc-title{
+
+    .desc-title {
         max-width: 550px;
         width: 100%;
         text-align: center;
     }
-    .desc-text{
+
+    .desc-text {
         max-width: 573px;
         width: 100%;
         text-align: center;
     }
 }
+
 @media (max-width: 850px) {
-    .line{
+    .line {
         left: 105px;
     }
 
-    .newyork{
+    .newyork {
         top: 40px;
         left: 105px;
     }
-    .newyork__text{
+
+    .newyork__text {
         top: 63px;
-        left: 150px ;
+        left: 150px;
     }
-    .london{
-        top:0;
-        left:305px;
+
+    .london {
+        top: 0;
+        left: 305px;
     }
-    .london__text{
+
+    .london__text {
         top: 25px;
         left: 355px;
     }
 
-    .yokohama{
+    .yokohama {
         top: 60px;
         right: 50px;
     }
-    .yokohama__text{
+
+    .yokohama__text {
         top: 80px;
         right: 88px;
     }
-    .jakarta{
+
+    .jakarta {
         bottom: 200px;
         right: 75px;
     }
-    .jakarta__text{
-        bottom:238px;
+
+    .jakarta__text {
+        bottom: 238px;
         right: 130px;
     }
 }
+
 /* mobile */
 @media(max-width: 768px) {
-    body{
-        overflow-x: hidden ;
+    body {
+        overflow-x: hidden;
     }
-    .header__list{
+
+    .header__list {
         position: absolute;
         left: 0;
         height: 682px;
         top: 75px;
         width: 300px;
-        background-color:#333A44;
+        background-color: #333A44;
         z-index: 10;
         display: flex;
         flex-direction: column;
@@ -422,10 +506,12 @@
         transform: translateX(-400px);
         transition: transform 0.5s ease-out;
     }
-    .burger{
+
+    .burger {
         display: block;
     }
-    .header__links{
+
+    .header__links {
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -433,181 +519,294 @@
         row-gap: 24px;
         top: 80px;
     }
-    .header__link{
+
+    .header__link {
         font-size: 25px;
         color: white;
 
     }
-    .desc{
+
+    .desc {
         height: 90vh;
     }
-    .nav-btn{
+
+    .nav-btn {
         position: absolute;
         top: 600px;
         left: 55px;
     }
-    .header__title{
+
+    .header__title {
         max-width: 450px;
         width: 100%;
     }
-    .header__text{
+
+    .header__text {
         max-width: 311px;
         width: 100%;
     }
-    .line{
+
+    .line {
         display: none;
     }
-    .apps__cards{
+
+    .apps__cards {
         display: flex;
         flex-direction: column;
         row-gap: 30px;
     }
-    .apps__card{
+
+    .apps__card {
         display: flex;
         flex-direction: column;
         max-width: 500px;
         width: 100%;
         text-align: center;
     }
-    .apps__card-title{
+
+    .apps__card-title {
         max-width: 311px;
         width: 100%;
 
     }
-    .apps__card-text{
+
+    .apps__card-text {
         max-width: 311px;
         width: 100%;
     }
-    .riding__text{
+
+    .riding__text {
         width: 311px;
     }
-    .coming__text{
+
+    .coming__text {
         width: 311px;
     }
-    .payment__text{
+
+    .payment__text {
         width: 311px;
     }
-    .contacts{
+
+    .contacts {
         height: 45vh;
     }
-    .contacts__title{
+
+    .contacts__title {
         max-width: 400px;
         margin-top: 50px;
     }
-    .nav{
+
+    .nav {
         height: 50vh;
         display: flex;
         flex-direction: column;
         row-gap: 85px;
     }
-    .footer__list{
+
+    .footer__list {
         display: flex;
         flex-direction: column;
         row-gap: 16px;
 
     }
-    .footer__logo{
+
+    .footer__logo {
         margin: unset;
     }
-    .about__main-title{
-       display: flex;
-       justify-content: center;
+
+    .about__main-title {
+        display: flex;
+        justify-content: center;
     }
-    .about-title{
+
+    .about-title {
         width: 150px;
     }
-    .mobility__text{
+
+    .mobility__text {
         width: 311px;
     }
-    .living__text{
+
+    .living__text {
         width: 311px;
     }
-    .living{
+
+    .living {
         padding-bottom: 0;
     }
-    .learning{
+
+    .learning {
         padding-bottom: 50px;
     }
-    .card__text{
+
+    .card__text {
         width: 311px;
     }
-    .accordion{
+
+    .accordion {
         width: 550px;
     }
-    .accordion1{
+
+    .accordion1 {
         width: 550px;
     }
-    .applies__card{
+
+    .applies__card {
         width: 500px;
         display: flex;
         flex-direction: column;
         row-gap: 16px;
     }
-    .map__img{
+
+    .map__img {
         max-width: 800px;
         width: 100%;
         background-position: top;
     }
-    .shape{
+
+    .shape {
         display: none;
     }
-    .oval{
+
+    .oval {
         display: block;
         width: 40px;
         height: 40px;
     }
-    .oval1{
+
+    .oval1 {
         position: absolute;
         top: 80px;
         left: 320px;
     }
-    .oval2{
+
+    .oval2 {
         position: absolute;
         top: 120px;
         left: 150px;
     }
-    .oval3{
+
+    .oval3 {
         position: absolute;
         top: 110px;
         right: 100px;
     }
-    .oval4{
+
+    .oval4 {
         position: absolute;
-       bottom: 180px;
+        bottom: 180px;
         right: 120px;
     }
-    .rectangle{
-        display:block;
+
+    .rectangle {
+        display: block;
         width: 311px;
     }
-    .map{
+
+    .map {
         height: 130vh;
     }
-    .map{
+
+    .map {
         position: relative;
     }
-    .newyork__text{
+
+    .newyork__text {
         display: none;
     }
-    .london__text{
+
+    .london__text {
         display: none;
     }
-    .jakarta__text{
+
+    .jakarta__text {
         display: none;
     }
-    .yokohama__text{
+
+    .yokohama__text {
         display: none;
     }
-    .desc-text{
+
+    .desc-text {
         width: 311px;
     }
+
+    .riding__img{
+        width: 311px;
+    }
+    .riding__title{
+        font-size: 32px;
+    }
+    .coming__img{
+        width: 311px;
+    }
+ 
+    .coming__title{
+        width: 311px;
+        font-size: 32px;
+    }
+    .payment__img{
+        width: 311px;
+    }
+ 
+    .payment__title{
+        width: 311px;
+        font-size: 32px;
+    }
+    .contacts{
+        height: 60vh;
+        display: flex;
+        align-items: center;
+    }
+    .mobility__img{
+        width: 311px;
+    }
+ 
+    .mobility__title{
+        width: 311px;
+        font-size: 32px;
+    }
+    .living__img{
+        width: 311px;
+    }
+ 
+    .living__title{
+        width: 311px;
+        font-size: 32px;
+    }
+ 
+    .tittle{
+        font-size: 32px;
+    }  
+    .accordion{
+        width: 450px;
+    }
+    .accordion1{
+        width: 450px;
+    }
+    .applies__card{
+        width: 350px;
+    }
+    .desc-title{
+        width: 311px;
+        font-size: 32px;
+    }
+ 
 }
+
 @media (max-width: 734px) {}
+
 @media (max-width: 684px) {}
+
 @media (max-width: 667px) {}
+
 /* mobile < 576  */
 @media (max-width: 576px) {}
+
 @media (max-width: 480px) {}
+
 @media (max-width: 412px) {}
+
 @media (max-width: 375px) {}
+
 @media (max-width: 320px) {}

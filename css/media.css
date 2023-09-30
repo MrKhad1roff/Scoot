@@ -1,18 +1,18 @@
 /* Decktop */
 @media (max-width: 1440px) {
-    .line{
+    .line {
         width: 1000px;
     }
 }
 
 @media (max-width: 1320px) {
-    .line{
+    .line {
         width: 950px;
     }
 }
 
 @media (max-width: 1290px) {
-    .line{
+    .line {
         width: 900px;
     }
 }
@@ -652,7 +652,7 @@
     }
 
     .applies__card {
-        width: 500px;
+        width: 300px;
         display: flex;
         flex-direction: column;
         row-gap: 16px;
@@ -731,67 +731,91 @@
         width: 311px;
     }
 
-    .riding__img{
+    .riding__img {
         width: 311px;
     }
-    .riding__title{
+
+    .riding__title {
         font-size: 32px;
     }
-    .coming__img{
+
+    .coming__img {
         width: 311px;
     }
- 
-    .coming__title{
-        width: 311px;
-        font-size: 32px;
-    }
-    .payment__img{
-        width: 311px;
-    }
- 
-    .payment__title{
+
+    .coming__title {
         width: 311px;
         font-size: 32px;
     }
-    .contacts{
-        height: 60vh;
+
+    .payment__img {
+        width: 311px;
+    }
+
+    .payment__title {
+        width: 311px;
+        font-size: 32px;
+    }
+
+    .contacts {
+        height: 70vh;
         display: flex;
         align-items: center;
     }
-    .mobility__img{
+
+    .mobility__img {
         width: 311px;
     }
- 
-    .mobility__title{
-        width: 311px;
-        font-size: 32px;
-    }
-    .living__img{
-        width: 311px;
-    }
- 
-    .living__title{
+
+    .mobility__title {
         width: 311px;
         font-size: 32px;
     }
- 
-    .tittle{
+
+    .living__img {
+        width: 311px;
+    }
+
+    .living__title {
+        width: 311px;
         font-size: 32px;
-    }  
-    .accordion{
-        width: 450px;
     }
-    .accordion1{
-        width: 450px;
+
+    .tittle {
+        font-size: 32px;
     }
-    .applies__card{
+
+    .accordion {
         width: 350px;
     }
-    .desc-title{
-        width: 311px;
-        font-size: 32px;
+
+    .accordion1 {
+        width: 350px;
     }
- 
+
+    .accordion__title {
+        width: 350px;
+        font-size: 20px;
+    }
+
+    .accordion__title1 {
+        width: 350px;
+        font-size: 20px;
+    }
+
+    .desc-title {
+        width: 311px;
+        text-align: center;
+        font-size: 27px;
+    }
+
+    .logos {
+        padding: 0;
+    }
+
+    .contacts__desc {
+        height: 500px;
+    }
 }
 
 @media (max-width: 734px) {}
@@ -801,11 +825,84 @@
 @media (max-width: 667px) {}
 
 /* mobile < 576  */
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .oval2 {
+        top: 120px;
+        left: 120px;
+    }
 
-@media (max-width: 480px) {}
+    .oval1 {
+        top: 85px;
+        left: 250px;
+    }
 
-@media (max-width: 412px) {}
+    .oval3 {
+        top: 110px;
+        right: 80px;
+    }
+    .oval4{
+        top: 300px;
+        right: 110px;
+    }
+    .map__img {
+        object-fit: cover;
+        width: 600px;
+    }
+}
+
+@media (max-width: 480px) {
+    .oval2 {
+        top: 90px;
+        left: 90px;
+    }
+
+    .oval1 {
+        top: 65px;
+        left: 200px;
+    }
+    .image{
+        height: 400px;
+    }
+    .oval3 {
+        top: 100px;
+        right: 45px;
+    }
+    .oval4{
+        top: 230px;
+        right: 65px;
+    }
+    .map__img {
+        object-fit: cover;
+        width: 460px;
+    }
+}
+
+@media (max-width: 412px) {
+    .oval2 {
+        top: 65px;
+        left: 80px;
+    }
+
+    .oval1 {
+        top: 40px;
+        left: 170px;
+    }
+    .image{
+        height: 300px;
+    }
+    .oval3 {
+        top: 70px;
+        right: 45px;
+    }
+    .oval4{
+        top: 160px;
+        right: 65px;
+    }
+    .map__img {
+        object-fit: cover;
+        width: 400px;
+    }
+}
 
 @media (max-width: 375px) {}
 

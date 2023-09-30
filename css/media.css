@@ -440,6 +440,15 @@
     }
 }
 
+@media(max-width: 900px) {
+
+    .line {
+        position: absolute;
+        left: 160px;
+        top: -20px;
+    }
+}
+
 @media (max-width: 850px) {
     .line {
         left: 105px;
@@ -588,13 +597,38 @@
     }
 
     .contacts {
-        height: 45vh;
+        height: 50vh;
+    }
+    .apple{
+        padding: 2px 7px;
+        width: 130px;
+    }
+    .icon{
+        transform: translateY(10px);
+    }
+    .icon__title{
+        font-size: 17px;
+    }
+    .icon__text{
+        font-size: 10px;
     }
 
+    .google{
+        padding: 10px;
+        width: 150px;
+    }
+  
+    .icon__title{
+        font-size: 17px;
+    }
+    .icon__text{
+        font-size: 10px;
+    }
     .contacts__title {
         max-width: 400px;
         margin-top: 50px;
     }
+  
 
     .nav {
         height: 50vh;
@@ -643,13 +677,7 @@
         width: 311px;
     }
 
-    .accordion {
-        width: 550px;
-    }
-
-    .accordion1 {
-        width: 550px;
-    }
+ 
 
     .applies__card {
         width: 300px;
@@ -786,21 +814,21 @@
     }
 
     .accordion {
-        width: 350px;
+        width: 311px;
     }
 
     .accordion1 {
-        width: 350px;
+        width: 311px;
     }
 
     .accordion__title {
-        width: 350px;
-        font-size: 20px;
+        width: 300px;
+        font-size: 18px;
     }
 
     .accordion__title1 {
-        width: 350px;
-        font-size: 20px;
+        width: 300px;
+        font-size: 18px;
     }
 
     .desc-title {
@@ -840,10 +868,12 @@
         top: 110px;
         right: 80px;
     }
-    .oval4{
+
+    .oval4 {
         top: 300px;
         right: 110px;
     }
+
     .map__img {
         object-fit: cover;
         width: 600px;
@@ -860,17 +890,21 @@
         top: 65px;
         left: 200px;
     }
-    .image{
+
+    .image {
         height: 400px;
     }
+
     .oval3 {
         top: 100px;
         right: 45px;
     }
-    .oval4{
+
+    .oval4 {
         top: 230px;
         right: 65px;
     }
+
     .map__img {
         object-fit: cover;
         width: 460px;
@@ -887,17 +921,21 @@
         top: 40px;
         left: 170px;
     }
-    .image{
+
+    .image {
         height: 300px;
     }
+
     .oval3 {
         top: 70px;
         right: 45px;
     }
-    .oval4{
+
+    .oval4 {
         top: 160px;
         right: 65px;
     }
+
     .map__img {
         object-fit: cover;
         width: 400px;

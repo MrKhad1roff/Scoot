@@ -842,7 +842,13 @@
     }
 
     .contacts__desc {
-        height: 500px;
+        height: 300px;
+    }
+    .contacts__title{
+        margin: 0;
+    }
+    .contacts{
+        padding: 0;
     }
 }
 

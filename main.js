@@ -60,8 +60,11 @@ const navLinks = document.querySelectorAll('.nav__list li');
 
 burger.addEventListener('click', () => {
 
-    if(nav.classList.toggle){
-        nav.style.transform = "translate(0)"
+    if(burger.classList.contains('toggle')){
+        nav.style.transform = "translateX(-400px)"
+    }else{
+        
+        nav.style.transform = "translateX(0)"
     }
     
 

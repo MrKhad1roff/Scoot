@@ -69,7 +69,9 @@ ul {
     letter-spacing: -2, 143px;
     font-weight: 700;
 }
-
+.header{
+    height: 100vh;
+}
 .container {
     max-width: 1200px;
     margin: auto;
@@ -77,11 +79,12 @@ ul {
     padding: 0 15px;
     overflow: hidden;
 }
+
 .header__desc{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 700px;
+    height: 100%;
 }
 .burger{
     display: none;
